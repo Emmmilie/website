@@ -11,9 +11,34 @@ body	{
 	margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Chivo', sans-serif;
+}
+
+p, a {
+	font-family: 'Overpass', sans-serif;
+}
 
 .container{
 	width: 90%;
 	margin: 24px auto;
 }
 
+
+.list-inline li{
+	display: inline;
+}
+
+.list-inline {
+	padding: 0px ;
+
+}
+
+.list-inline a {
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 48px ;
+}
+
+.list-inline a:hover {
+	color: black ;
+}
